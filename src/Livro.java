@@ -43,7 +43,7 @@ public class Livro {
         this.editora = editora;
         this.paginas = paginas;
         this.resumo = resumo;
-        this.tipoCapa = tipoCapa;
+        this.tipoCapa = getTipoCapa();
     }
 
     public String getTitulo() {
